@@ -61,9 +61,9 @@ body{
 }
 
 .buttons button:hover{
-    box-shadow:0 0 1.5rem rgb(250,4,180);
-    color: rgb(252,5,198);
-    transform: translateY(-10px);
+    box-shadow:0 0 1.5rem rgb(250, 193, 4);
+    color: lightgreen;
+    transform: translateY(-5px);
     cursor: pointer;
     transition: transform 120ms;
 }

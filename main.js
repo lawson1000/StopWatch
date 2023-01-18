@@ -50,8 +50,8 @@ this.reset =function(){
         getMinutes=0;
 
         seconds.innerHTML= "0" + getSeconds
-        minutes.innerHTML= "0" + getMinutes + " :"
-        hour.innerHTML = "0" + getHours + " :"
+        minutes.innerHTML= "0" + getMinutes + ": "
+        hour.innerHTML = "0" + getHours + ": "
         clearTimeout(interval);
     }
 }
