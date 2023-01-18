@@ -27,3 +27,27 @@ body{
     font-size: 30px;
     font-family: "montserrat";
 }
+#time{
+    margin: 15% 0 0 20%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid green;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+#time span{
+    position: relative;
+    top: 70px;
+    font-size: 38px;
+    font-family: "montserrat";
+    color: white;
+}
+
+.buttons{
+    margin-top: 15%;
+}
+
+.buttons button{
+     
+}
