@@ -49,5 +49,21 @@ body{
 }
 
 .buttons button{
+     border: 2px solid black;
+     color: white;
+     background-color: rgba(17,18,19,0.6);
+     border: none;
+     letter-spacing: 5px;
+     padding: 15px;
+     border-radius: 25px;
+     backdrop-filter: :blur();
      
+}
+
+.buttons button:hover{
+    box-shadow:0 0 1.5rem rgb(250,4,180);
+    color: rgb(252,5,198);
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: transform 120ms;
 }
