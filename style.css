@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* layout */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background:linear-gradient(45deg,bisque,darkorange);
+    height: 100vh;
+}
+/* center the stopwatch */
+.main-container{
+    width: 330px;
+    margin-top:7% ;
+    height: 500px;
+    background: radial-gradient(grey,transparent);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+
+.stopwatch{
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: "montserrat";
+}
